@@ -33,16 +33,16 @@
           <b-carousel-slide
             caption="First slide"
             text="Nulla vitae elit libero, a pharetra augue mollis interdum."
-            img-src="https://picsum.photos/1024/480/?image=52"
+            img-src="/static/img/kitchen.jpg"
           />
 
           <!-- Slides with custom text -->
-          <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=54">
+          <b-carousel-slide img-src="/static/img/ladies-wear.jpeg">
             <h1>Hello world!</h1>
           </b-carousel-slide>
 
           <!-- Slides with image only -->
-          <b-carousel-slide img-src="https://picsum.photos/1024/480/?image=58"/>
+          <b-carousel-slide img-src="/static/img/blender.jpeg"/>
 
           <!-- Slides with img slot -->
           <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment -->
@@ -51,14 +51,22 @@
               slot="img"
               class="d-block img-fluid w-100"
               width="1024"
-              height="480"
-              src="https://picsum.photos/1024/480/?image=55"
+              height="340"
+              src="/static/img/bedroom.jpg"
               alt="image slot"
             >
           </b-carousel-slide>
 
           <!-- Slide with blank fluid image to maintain slide aspect ratio -->
           <b-carousel-slide caption="Blank Image" img-blank img-alt="Blank image">
+            <img
+              slot="img"
+              class="d-block img-fluid w-100"
+              width="1024"
+              height="340"
+              src="/static/img/accessories.jpg"
+              alt="image slot"
+            >
             <p>NEW COLLECTION</p>
           </b-carousel-slide>
         </b-carousel>
@@ -111,5 +119,13 @@ export default {
   color: #fff;
   padding-top: 10px;
   padding-left: 10px;
+}
+
+.carousel-item {
+  height: 442px;
+}
+
+.carousel-item img {
+  height: 442px;
 }
 </style>
