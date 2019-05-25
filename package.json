@@ -1,5 +1,5 @@
 {
-  "name": "natterbase-vue-test",
+  "name": "rave-ride",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "judith <judithcynthia1@gmail.com>",
@@ -14,11 +14,13 @@
     "axios": "^0.18.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.15",
+    "vee-validate": "^2.2.0",
     "vue": "^2.6.9",
     "vue-awesome": "^3.4.0",
     "vue-axios": "^2.1.4",
     "vue-resource": "^1.5.1",
     "vue-router": "^3.0.1",
+    "vuelidate": "^0.7.4",
     "vuex": "^3.1.0"
   },
   "devDependencies": {

@@ -1,11 +1,11 @@
 <template>
-  <div>
+
     <div class="footer">
       <div class="container">
         <div class="row">
           <div class="col-md-3">
-            <h3 class="footer-title">PAYSMOSMO</h3>
-            <p>Help give out inventory loans to coperative members with ease</p>
+            <h3 class="footer-title">RaveRide</h3>
+            <p>RaveRide verifies and make payment easy for from anywhere.</p>
           </div>
           <div class="col-md-2 footer-column">
             <p>Contact</p>
@@ -56,10 +56,10 @@
       </div>
 
       <div class="text-center sub-footer">
-        <p>©{{ new Date().getFullYear() }}</p>
+        <p>©{{ new Date().getFullYear() }}  RaveRide</p>
       </div>
     </div>
-  </div>
+
 </template>
 
 <script>
@@ -68,32 +68,32 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .footer {
-  background-color: #363535;
+  background-color: #bbbbbb;
   max-height: 100%;
-  margin-top: 60px;
+  margin-top: 0px;
   padding-top: 80px;
 }
 
 .footer h3 {
-  color: grey;
+  color: #ffffff;
   font-weight: 700;
 }
 .footer p {
-  color: grey;
+  color: #ffffff;
 }
 
 ul.footer-list {
   list-style: none;
-  color: grey;
+  color: #fff;
 }
 
 .footer-column p {
   padding-left: 40px;
 }
 .sub-footer {
-  background-color: rgb(43, 42, 42);
+  background-color: #aaaaaa;
   color: #fff;
   height: 70px;
   padding-top: 30px;
